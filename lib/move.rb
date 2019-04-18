@@ -12,6 +12,6 @@ def input_to_index(int)
   num -= 1 
 end
 
-def move(array, index, character="X")
-  
+def move(board, position, character="X")
+  board[position] = character
 end
